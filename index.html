@@ -1,0 +1,49 @@
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>lyrics</title>
+
+    <style>
+      #display {
+        white-space: pre;
+      }
+
+      #code {
+        font: 4em monospace;
+      }
+    </style>
+
+  </head>
+
+  <body>
+
+  
+  <center>
+    <input type="text" id="code" size="4" maxlength="4" value="0000" onkeyup="displayLyrics()">
+  </center>
+
+  <div id="display"></div>
+
+  <script src="lyrics.js"></script>
+
+  <script>
+
+  var display=document.getElementById("display");
+  var code=document.getElementById("code");
+  
+  function displayLyrics() {
+    if(code.value in lyrics) {
+      display.innerHTML=
+      "<h1>"+lyrics[code.value].title+"</h1>"+
+      lyrics[code.value].text;
+    } else {
+      display.innerHTML="Lyric code: "+code.value+" not found!";
+    }
+  }
+  
+  displayLyrics();
+
+  </script>
+  </body>
+</html>
