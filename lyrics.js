@@ -6,7 +6,7 @@ lyrics = {
   },
   
   "0001":{ 
-    title:"Ako ay may Lobo", 
+    title:"Ako Ay May Lobo", 
     text:"Ako ay may lobo lumipad sa langit\nDi ko nanakita\npumutok na pala\nsayang lang ang pera ko\nbiniling lobo\nkung sa pagkain sana\nnabusog pa ako." 
   },
 
