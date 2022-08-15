@@ -37,9 +37,10 @@
     if(code.value in lyrics) {
       display.innerHTML=
       "<h1>"+lyrics[code.value].title+"</h1>"+
+      "<h2>"+lyrics[code.value].author+"</h2>"+
       lyrics[code.value].text;
     } else {
-      display.innerHTML="Lyric code: "+code.value+" not found!";
+      display.innerHTML="<center><h1>Lyric Code: "+code.value+"<br>Not Found!</h1></center>";
     }
   }
   
