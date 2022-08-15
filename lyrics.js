@@ -5,7 +5,7 @@ lyrics = {
     author:"Folk Song",
     text:"Happy birthday to you\nHappy birthday to you\nHappy birthday\nHappy birthday\nHappy birthday to you." 
   },
-  
+
   "0001":{ 
     title:"Ako Ay May Lobo", 
     author:"Folk Song",
